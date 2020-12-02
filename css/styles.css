@@ -6,6 +6,22 @@ h1 {
   margin-top: 0;
 }
 
-div {
+.top-container {
   background-color: #E4F9F5;
+}
+
+.middle-container {
+  width: 200px;
+  height: 200px;
+  background-color: #30E3CA;
+}
+
+.bottom-container {
+  width: 200px;
+  height: 200px;
+  background-color: #11999E;
+}
+
+.pro {
+  text-decoration: underline;
 }
