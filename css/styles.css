@@ -50,7 +50,7 @@ hr {
 /************************* CLASS SELECTORS *************************/
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #EAF6F6;
   padding-top: 100px;
   position: relative;
 }
@@ -66,8 +66,8 @@ hr {
 
 .skill-row {
   margin: 100px auto;
-  text-align: left;
-  width: 50%;
+  text-align: justify;
+  width: 45%;
 }
 
 .pro {
