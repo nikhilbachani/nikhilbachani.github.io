@@ -28,7 +28,8 @@ h3 {
 }
 
 a {
-  color: #11999E;
+  color: #00888D;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -41,7 +42,7 @@ p {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted lightgrey 6px;
   border-bottom: none;
   margin: 100px auto;
   width: 4%;
@@ -61,7 +62,7 @@ hr {
 
 .bottom-container {
   background-color: #66BFBF;
-  padding: 50px 0 20px;
+  padding-top: 50px;
 }
 
 .skill-row {
@@ -86,8 +87,9 @@ hr {
 
 .copyright {
   color: #EAF6F6;
-  font-size: 0.75rem; /* 12px */
-  padding: 20px 0;
+  font-size: 0.875rem; /* 14px */
+  padding-top: 20px;
+  margin: auto;
 }
 
 .top-cloud {
@@ -147,4 +149,56 @@ hr {
 
 .footer-link:hover {
   color: #EAF6F6;
+}
+
+/************************* MOBILE LAYOUT *************************/
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1.125rem; /* 18px */
+  }
+
+  h1 {
+    font-size: 3.5rem; /* 56px */
+  }
+
+  h2 {
+    font-size: 1.75rem; /* 28px */
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 1.25rem; /* 20px */
+    line-height: 2;
+  }
+
+  hr {
+    margin: 50px auto;
+  }
+
+  .skill-row {
+    text-align: left;
+    margin: 50px auto;
+  }
+
+  .code-img, .puzzle-img, .talk-img {
+    margin: 20px 0;
+    width: 90%;
+    float: none;
+  }
+
+  .mountain-img, .top-cloud, .bottom-cloud {
+    display: none;
+  }
+
+  .top-container {
+    padding: 80px 0;
+  }
+
+  .middle-container {
+    margin-top: 50px;
+  }
+
+  .bottom-container {
+    padding-top: 35px;
+  }
 }
