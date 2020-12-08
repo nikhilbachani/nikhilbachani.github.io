@@ -96,12 +96,14 @@ hr {
   position: absolute;
   right: 300px;
   top: 40px;
+  opacity: 0.4;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 250px;
   bottom: 300px;
+  opacity: 0.4;  
 }
 
 .code-img, .talk-img {
